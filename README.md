@@ -65,7 +65,7 @@ class graphplot(QtWidgets.QMainWindow):
         # print(y)
 
 
-# Create a subclass of QMainWindow to setup the calculator's GUI
+# Create a subclass of QMainWindow to setup the GUI
 class PyCalcUi(QMainWindow):
     """PyCalc's View (GUI)."""
 
@@ -225,7 +225,7 @@ def ploto(xmin, xmax, t):
 
 
 
-# Create a Model to handle the calculator's operation
+# Create a Model to handle the  operation
 def evaluateExpression(expression):
     """Evaluate an expression."""
 
